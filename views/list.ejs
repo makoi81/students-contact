@@ -1,0 +1,20 @@
+
+<% for(var i = 0; i < blogStudent.length; i++){ %>
+	<!--<h1> Post <%= i+1 %></h1> -->
+	<div>
+     <a href="edit/<%= blogStudent[i].id%>">Update</a>
+     </div>
+
+     <div>
+     <a href="delete/<%= blogStudent[i].id%>">Delete</a>
+     </div>
+
+	<h2><%= blogStudent[i].dateTime %></h2>
+	<h2><%= blogStudent[i].id %></h2>
+	<h2><%= blogStudent[i].fullName %></h2>
+	<h2><%= blogStudent[i].email %></h2>
+	<h2><%= blogStudent[i].location%></h2>
+	<h2><%= blogStudent[i].age %></h2>
+	<h2><%= blogStudent[i].hobbies%></h2>
+
+<% } %>

@@ -1,0 +1,14 @@
+{
+  "name": "student-contact",
+  "version": "1.0.0",
+  "description": "get the contact of all student ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahamadou KOITA",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
